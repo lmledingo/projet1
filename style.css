@@ -1,0 +1,26 @@
+* {
+    list-style: none;
+    background-color: rgb(rgb(114, 111, 111), rgb(92, 95, 92), rgb(84, 84, 87));
+}
+
+ul li {
+    font-family: Gugi, cursive;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+}
+.box, .logo{
+    align-items: centergit;
+
+}
+
+a {}
+
+.middlepage {
+    width: 100vh;
+    display: flex;
+    align-items: center;
+
+}
