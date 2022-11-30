@@ -16,7 +16,10 @@ ul li {
 
 }
 
-a {}
+.box, a {
+    text-decoration: none;
+    color: whitesmoke;
+}
 
 .middlepage {
     width: 100vh;
