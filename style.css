@@ -94,3 +94,11 @@ a:hover {
     grid-area: 1 / 5 / 2 / 6;
     text-align: center;
 }
+
+.social {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.social img {
+    width: 3%;
+}
