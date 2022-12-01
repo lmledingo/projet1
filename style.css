@@ -1,6 +1,6 @@
 * {
     list-style: none;
-    background-color: rgb(rgb(114, 111, 111), rgb(92, 95, 92), rgb(84, 84, 87));
+    background-color: rgb(99, 94, 94);
 }
 
 ul li {
@@ -29,5 +29,5 @@ ul li {
 
 }
 .box, a:hover {
-    color: rgb(194, 31, 31);
+    color: rgb(130, 2, 2);
 }
