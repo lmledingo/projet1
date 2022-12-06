@@ -1,104 +1,93 @@
-@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Gugi&display=swap");
 
 * {
-    margin: 0;
-    list-style: none;
-    background-color: rgb(99, 94, 94);
+  margin: 0;
+  list-style: none;
+  background-color: rgb(99, 94, 94);
 }
 
 ul {
-    padding: 0;
+  padding: 0;
 }
 
 ul li {
-    font-family: Gugi, cursive;
+  font-family: Gugi, cursive;
 }
 
 .box {
-
-
-    justify-content: space-around;
+  justify-content: space-around;
 }
 
 .box .logo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .parent a {
-    text-decoration: none;
-    color: whitesmoke;
-
-
+  text-decoration: none;
+  color: whitesmoke;
 }
 
 .middlepage {
-
-    display: flex;
-    justify-content: center;
-
+  display: flex;
+  justify-content: center;
 }
 
 .middlepage img {
-    width: 100%;
-    height: 80%;
+  width: 100%;
+  height: 80%;
 }
 
 .box,
 a:hover {
-    color: rgb(130, 2, 2);
-    transition: 0.5s;
+  color: rgb(130, 2, 2);
+  transition: 0.5s;
 }
 
-
-
 .parent {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
 }
 
 .div1 {
-    grid-area: 1 / 1 / 2 / 2;
-    text-align: center;
+  grid-area: 1 / 1 / 2 / 2;
+  text-align: center;
 }
 
 .div2 {
-    grid-area: 1 / 2 / 2 / 3;
-    text-align: center;
+  grid-area: 1 / 2 / 2 / 3;
+  text-align: center;
 }
 
 .div3 {
-    grid-area: 1 / 3 / 2 / 4;
-    text-align: center;
-
+  grid-area: 1 / 3 / 2 / 4;
+  text-align: center;
 }
 
 .div3 .logo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .div4 {
-    grid-area: 1 / 4 / 2 / 5;
-    text-align: center;
+  grid-area: 1 / 4 / 2 / 5;
+  text-align: center;
 }
 
 .div5 {
-    grid-area: 1 / 5 / 2 / 6;
-    text-align: center;
+  grid-area: 1 / 5 / 2 / 6;
+  text-align: center;
 }
 
 .social {
-    display: flex;
-    flex-direction: row-reverse;
+  display: flex;
+  flex-direction: row-reverse;
 }
 .social img {
-    width: 3%;
+  width: 3%;
 }
