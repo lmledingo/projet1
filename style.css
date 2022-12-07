@@ -94,22 +94,30 @@ a:hover {
 .secondpart img {
   display: flex;
   width: 30%;
-  justify-content: center;
+  flex-wrap: wrap;
+  box-shadow: 2px 2px 2px black;
+}
+.secondpart {
+  display: flex;
+  justify-content: space-around;
+  margin: 12em;
   flex-wrap: wrap;
 }
-.secondpart p {
-  display: flex;
-  flex-direction: row-reverse;
-  flex-wrap: wrap;
+.secondpart p{
+  text-align: center;
 }
 .secondpart h2 {
   font-family: Gugi, cursive;
   font-size: 1em;
-  color: rgb(130, 2, 2);
+  color: rgb(130, 2, 2);   
 }
 .secondpart h2:hover {
   color: whitesmoke;
   transition: 0.5s;
+}
+.thirdpart{
+  display: flex;
+
 }
 .thirdpart h2 {
   font-family: Gugi, cursive;
