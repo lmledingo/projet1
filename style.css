@@ -103,21 +103,20 @@ a:hover {
   margin: 12em;
   flex-wrap: wrap;
 }
-.secondpart p{
+.secondpart p {
   text-align: center;
 }
 .secondpart h2 {
   font-family: Gugi, cursive;
   font-size: 1em;
-  color: rgb(130, 2, 2);   
+  color: rgb(130, 2, 2);
 }
 .secondpart h2:hover {
   color: whitesmoke;
   transition: 0.5s;
 }
-.thirdpart{
+.thirdpart {
   display: flex;
-
 }
 .thirdpart h2 {
   font-family: Gugi, cursive;
@@ -128,7 +127,7 @@ a:hover {
   color: whitesmoke;
   transition: 0.5s;
 }
-.fourthpart h2{
+.fourthpart h2 {
   font-family: Gugi, cursive;
   font-size: 1em;
   color: rgb(130, 2, 2);
@@ -136,3 +135,4 @@ a:hover {
 .fourthdpart h2:hover {
   color: whitesmoke;
   transition: 0.5s;
+}
