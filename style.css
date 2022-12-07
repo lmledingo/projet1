@@ -124,7 +124,7 @@ a:hover {
   flex-wrap: wrap;
   flex-direction: row-reverse;
 }
-.thirdpart img{
+.thirdpart img {
   width: 40%;
 }
 .thirdpart p {
@@ -147,7 +147,7 @@ a:hover {
   margin: 12em;
   flex-wrap: wrap;
 }
-.fourthpart img{
+.fourthpart img {
   width: 40%;
 }
 .fourthpart h2 {
@@ -159,7 +159,7 @@ a:hover {
   color: whitesmoke;
   transition: 0.5s;
 }
-.fourthpart p{
+.fourthpart p {
   font-family: "Asul", sans-serif;
   color: whitesmoke;
 }
