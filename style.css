@@ -91,3 +91,14 @@ a:hover {
 .social img {
   width: 3%;
 }
+.secondpart img{
+  display: flex;
+  width: 30%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.secondpart p{
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
