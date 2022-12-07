@@ -104,7 +104,6 @@ a:hover {
   flex-wrap: wrap;
 }
 .secondpart p {
-  text-align: center;
   font-family: "Asul", sans-serif;
   color: whitesmoke;
 }
@@ -117,6 +116,12 @@ a:hover {
   color: whitesmoke;
   transition: 0.5s;
 }
+.secondpart .container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+}
 .thirdpart {
   display: flex;
   justify-content: space-around;
@@ -128,8 +133,13 @@ a:hover {
   width: 40%;
   box-shadow: 2px 2px 2px rgb(0, 0, 0);
 }
+.thirdpart .container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+}
 .thirdpart p {
-  text-align: center;
   font-family: "Asul", sans-serif;
   color: whitesmoke;
 }
@@ -151,6 +161,12 @@ a:hover {
 .fourthpart img {
   width: 40%;
   box-shadow: 2px 2px 2px black;
+}
+.fourthpart .container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
 }
 .fourthpart h2 {
   font-family: Gugi, cursive;
