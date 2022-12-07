@@ -93,7 +93,7 @@ a:hover {
 }
 .secondpart img {
   display: flex;
-  width: 30%;
+  width: 40%;
   flex-wrap: wrap;
   box-shadow: 2px 2px 2px black;
 }
@@ -122,6 +122,10 @@ a:hover {
   justify-content: space-around;
   margin: 12em;
   flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+.thirdpart img{
+  width: 40%;
 }
 .thirdpart p {
   text-align: center;
@@ -142,6 +146,9 @@ a:hover {
   justify-content: space-around;
   margin: 12em;
   flex-wrap: wrap;
+}
+.fourthpart img{
+  width: 40%;
 }
 .fourthpart h2 {
   font-family: Gugi, cursive;
