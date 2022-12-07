@@ -83,10 +83,16 @@ a:hover {
   grid-area: 1 / 5 / 2 / 6;
   text-align: center;
 }
-
+.copyrights{
+  display: flex;
+  font-family: "Asul", sans-serif;
+  color: rgb(157, 148, 148);
+  justify-content: space-around;
+}
 .social {
   display: flex;
   flex-direction: row-reverse;
+  
 }
 .social img {
   width: 3%;
