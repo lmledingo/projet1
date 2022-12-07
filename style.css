@@ -100,7 +100,7 @@ a:hover {
 .secondpart {
   display: flex;
   justify-content: space-around;
-  margin: 12em;
+  margin: 10em;
   flex-wrap: wrap;
 }
 .secondpart p {
@@ -120,7 +120,7 @@ a:hover {
 .thirdpart {
   display: flex;
   justify-content: space-around;
-  margin: 12em;
+  margin: 10em;
   flex-wrap: wrap;
   flex-direction: row-reverse;
 }
@@ -144,7 +144,7 @@ a:hover {
 .fourthpart {
   display: flex;
   justify-content: space-around;
-  margin: 12em;
+  margin: 10em;
   flex-wrap: wrap;
 }
 .fourthpart img {
