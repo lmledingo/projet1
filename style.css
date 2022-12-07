@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Gugi&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Asul&family=Gugi&display=swap");
 * {
   margin: 0;
   list-style: none;
@@ -105,6 +105,8 @@ a:hover {
 }
 .secondpart p {
   text-align: center;
+  font-family: "Asul", sans-serif;
+  color: whitesmoke;
 }
 .secondpart h2 {
   font-family: Gugi, cursive;
@@ -117,6 +119,14 @@ a:hover {
 }
 .thirdpart {
   display: flex;
+  justify-content: space-around;
+  margin: 12em;
+  flex-wrap: wrap;
+}
+.thirdpart p {
+  text-align: center;
+  font-family: "Asul", sans-serif;
+  color: whitesmoke;
 }
 .thirdpart h2 {
   font-family: Gugi, cursive;
@@ -127,12 +137,22 @@ a:hover {
   color: whitesmoke;
   transition: 0.5s;
 }
+.fourthpart {
+  display: flex;
+  justify-content: space-around;
+  margin: 12em;
+  flex-wrap: wrap;
+}
 .fourthpart h2 {
   font-family: Gugi, cursive;
   font-size: 1em;
   color: rgb(130, 2, 2);
 }
-.fourthdpart h2:hover {
+.fourthpart h2:hover {
   color: whitesmoke;
   transition: 0.5s;
+}
+.fourthpart p{
+  font-family: "Asul", sans-serif;
+  color: whitesmoke;
 }
