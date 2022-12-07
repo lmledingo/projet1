@@ -91,14 +91,40 @@ a:hover {
 .social img {
   width: 3%;
 }
-.secondpart img{
+.secondpart img {
   display: flex;
   width: 30%;
   justify-content: center;
   flex-wrap: wrap;
 }
-.secondpart p{
+.secondpart p {
   display: flex;
   flex-direction: row-reverse;
   flex-wrap: wrap;
 }
+.secondpart h2 {
+  font-family: Gugi, cursive;
+  font-size: 1em;
+  color: rgb(130, 2, 2);
+}
+.secondpart h2:hover {
+  color: whitesmoke;
+  transition: 0.5s;
+}
+.thirdpart h2 {
+  font-family: Gugi, cursive;
+  font-size: 1em;
+  color: rgb(130, 2, 2);
+}
+.thirdpart h2:hover {
+  color: whitesmoke;
+  transition: 0.5s;
+}
+.fourthpart h2{
+  font-family: Gugi, cursive;
+  font-size: 1em;
+  color: rgb(130, 2, 2);
+}
+.fourthdpart h2:hover {
+  color: whitesmoke;
+  transition: 0.5s;
