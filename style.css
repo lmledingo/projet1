@@ -126,6 +126,7 @@ a:hover {
 }
 .thirdpart img {
   width: 40%;
+  box-shadow: 2px 2px 2px rgb(0, 0, 0);
 }
 .thirdpart p {
   text-align: center;
@@ -149,6 +150,7 @@ a:hover {
 }
 .fourthpart img {
   width: 40%;
+  box-shadow: 2px 2px 2px black;
 }
 .fourthpart h2 {
   font-family: Gugi, cursive;
