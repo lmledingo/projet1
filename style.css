@@ -93,9 +93,22 @@ a:hover {
 }
 /* body de la page index.html */
 .middlepage {
+
   display: flex;
   justify-content: center;
+align-items: center;
 }
+.middlepage img{
+  
+  height:500px ;
+  width: 100%;
+  opacity: 0;
+  
+}
+.middlepage .show{
+  opacity: 1;
+}
+
 .social img {
   width: 3%;
 }
@@ -314,4 +327,3 @@ a:hover {
   flex-direction: column;
   align-items: flex-start;
 }
-.information 
