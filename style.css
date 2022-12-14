@@ -29,8 +29,6 @@ ul li {
   color: whitesmoke;
 }
 
-
-
 .middlepage img {
   width: 100%;
   height: 80%;
@@ -93,19 +91,19 @@ a:hover {
 }
 /* body de la page index.html */
 .middlepage {
-
+  height: 100vh;
+  width: 100vw;
   display: flex;
   justify-content: center;
-align-items: center;
+  align-items: center;
 }
-.middlepage img{
-  
-  height:500px ;
-  width: 100%;
+.middlepage img {
+  position:absolute ;
+  height: 100vh;
+  width: 100vw;
   opacity: 0;
-  
 }
-.middlepage .show{
+.middlepage .show {
   opacity: 1;
 }
 
@@ -317,12 +315,12 @@ align-items: center;
   grid-area: 5 / 4 / 7 / 6;
 }
 /* contact */
-.baton{
+.baton {
   display: flex;
   justify-content: space-around;
   margin: 5em;
 }
-.information{
+.information {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
