@@ -117,7 +117,8 @@ a:hover {
   color: rgb(157, 148, 148);
   justify-content: space-around;
 }
-.social {
+
+.social a{
   display: flex;
   flex-direction: row-reverse;
 }
