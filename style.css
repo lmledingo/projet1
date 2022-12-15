@@ -83,6 +83,9 @@ a:hover {
   width: 3%;
 }
 /* body de la page index.html */
+
+  
+
 .middlepage {
   height: 100vh;
   width: 100vw;
@@ -191,6 +194,23 @@ a:hover {
 .fourthpart p {
   font-family: "Asul", sans-serif;
   color: whitesmoke;
+}
+@media screen and (max-width: 900px){
+  .secondpart, .thirdpart, .fourthpart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+}
+@media screen and (max-width: 800px) {
+  .middlepage{
+    display: none;
+  }
+  .middlepage img{
+    display: none;
+  }
 }
 /* grid for impression 3D  */
 .presentation {
