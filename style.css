@@ -6,13 +6,6 @@
   background-color: rgb(99, 94, 94);
 }
 /* Header */
-ul {
-  padding: 0;
-}
-
-ul li {
-  font-family: Gugi, cursive;
-}
 
 .box {
   justify-content: space-around;
@@ -27,11 +20,8 @@ ul li {
 .parent a {
   text-decoration: none;
   color: whitesmoke;
-}
-
-.middlepage img {
-  width: 100%;
-  height: 80%;
+  font-family: Gugi, cursive;
+  padding: 0;
 }
 
 .box,
@@ -88,7 +78,6 @@ a:hover {
 .social {
   display: flex;
   flex-direction: row-reverse;
-  
 }
 .social img {
   width: 3%;
@@ -101,8 +90,9 @@ a:hover {
   justify-content: center;
   align-items: center;
 }
+
 .middlepage img {
-  position:absolute ;
+  position: absolute;
   height: 100vh;
   width: 100vw;
   opacity: 0;
@@ -111,7 +101,6 @@ a:hover {
 .middlepage .show {
   opacity: 1;
 }
-
 
 .secondpart img {
   display: flex;
