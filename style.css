@@ -325,31 +325,23 @@ a:hover {
 }
 /* grid pour la page peinture.html */
 .peint {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(6, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
+  display: flex;
+  flex-direction: column;
+  
+  
+  object-fit: cover;
+  width: 100%;
+  margin: 0;
+}
+.peint img{
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  
+  box-shadow: 2px 2px 2px black;
 }
 
-.div19 {
-  grid-area: 1 / 2 / 3 / 4;
-}
-.div20 {
-  grid-area: 1 / 4 / 3 / 6;
-}
-.div21 {
-  grid-area: 3 / 2 / 5 / 4;
-}
-.div22 {
-  grid-area: 3 / 4 / 5 / 6;
-}
-.div23 {
-  grid-area: 5 / 2 / 7 / 4;
-}
-.div24 {
-  grid-area: 5 / 4 / 7 / 6;
-}
+
 /* contact */
 .baton {
   display: flex;
