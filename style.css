@@ -120,7 +120,10 @@ a:hover {
 
 .social a{
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: end;
+
 }
 .social img {
   width: 3%;
