@@ -1,14 +1,53 @@
 @import url("https://fonts.googleapis.com/css2?family=Gugi&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Asul&family=Gugi&display=swap");
+
 * {
   margin: 0;
   list-style: none;
   background-color: rgb(99, 94, 94);
 }
 /* Header */
+.navbar {
+  display: none;
+}
+.navbar i {
+  position: fixed;
+  z-index: 9999;
+  top: 9px;
+  right: 15px;
+  font-size: 3rem;
+  color: whitesmoke;
+}
 
+.modal {
+  z-index: 4;
+  background-color: beige;
+  height: 100vh;
+  position: fixed;
+  top: -100vh;
+  left: 0;
+  width: 100%;
+  opacity: 0.9;
+  transition: top 0.9s;
+}
+.change-modal {
+  top: 0vh;
+}
 .box {
   justify-content: space-around;
+}
+.navbar .navbar-list {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.navbar .navbar-list a {
+  font-size: 5rem;
+  font-weight: 800;
+  color: black;
+  padding: 2rem;
 }
 
 .box .logo {
@@ -68,6 +107,7 @@ a:hover {
   grid-area: 1 / 5 / 2 / 6;
   text-align: center;
 }
+
 /* footer */
 .copyrights {
   display: flex;
@@ -83,8 +123,6 @@ a:hover {
   width: 3%;
 }
 /* body de la page index.html */
-
-  
 
 .middlepage {
   height: 100vh;
@@ -195,20 +233,21 @@ a:hover {
   font-family: "Asul", sans-serif;
   color: whitesmoke;
 }
-@media screen and (max-width: 900px){
-  .secondpart, .thirdpart, .fourthpart{
+@media screen and (max-width: 900px) {
+  .secondpart,
+  .thirdpart,
+  .fourthpart {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  
 }
 @media screen and (max-width: 800px) {
-  .middlepage{
+  .middlepage {
     display: none;
   }
-  .middlepage img{
+  .middlepage img {
     display: none;
   }
 }
@@ -336,4 +375,13 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+
+@media screen and (max-width: 800px) {
+  .parent {
+    display: none;
+  }
+  .navbar {
+    display: block;
+  }
 }
