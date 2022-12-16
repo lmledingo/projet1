@@ -25,7 +25,7 @@
   background-color: beige;
   height: 100vh;
   position: fixed;
-  top: -100vh;
+  top: -1300vh;
   left: 0;
   width: 100%;
   opacity: 0.9;
@@ -45,8 +45,8 @@
   justify-content: center;
 }
 .navbar .navbar-list a {
-  font-size: 5rem;
-  font-weight: 800;
+  font-size: 3rem;
+  font-weight: 2rem;
   color: black;
   padding: 2rem;
 }
@@ -118,12 +118,11 @@ a:hover {
   justify-content: space-around;
 }
 
-.social a{
+.social a {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
   justify-content: end;
-
 }
 .social img {
   width: 3%;
@@ -290,9 +289,8 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
   }
-  .baton{
+  .baton {
     display: flex;
     flex-direction: column;
     justify-content: center;
